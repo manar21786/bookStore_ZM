@@ -453,6 +453,65 @@ section {
 
       .learn-more {
         margin-bottom: 0.6rem;
+
+      }
+
+    }
+
+  }
+
+
+}
+.arrivals {
+  .arrival-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 5.5rem;
+    row-gap: 1.5rem;
+
+    .arrival-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid var(--text-gray);
+      padding: 0.5rem 3rem;
+      cursor: pointer;
+      transition: border 0.3s ease box-shadow 0.3s ease;
+      overflow: hidden;
+
+      &:hover {
+        border: 1px solid var(--primary-blue);
+        box-shadow: 1px 1px 5px var(--primary-blue);
+      }
+
+      .card-img-arrival {
+        width: 8.5rem;
+        margin-bottom: 0.4rem;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      .new-arrivals {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+        color: var(--netural-black);
+      }
+
+      .stars {
+        margin-bottom: 0.3rem;
+      }
+
+      .bxs-star,
+      .bxs-star-half {
+        color: var(--primary-blue);
+      }
+
+      .arrival-btn {
+        font-size: 0.9rem;
       }
     }
   }
