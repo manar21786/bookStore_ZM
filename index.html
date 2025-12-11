@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <header class="header">
+      <img class="logo" src="assets/image/logo.png" alt="Website Logo" />
+      <nav class="navbar">
+        <a class="nav-links" href="#home">Home</a>
+        <a class="nav-links" href="#about">About</a>
+        <a class="nav-links" href="#featured">Featured</a>
+        <a class="nav-links" href="#arrivals">Arrivals</a>
+        <a class="nav-links" href="#reviews">Reviews</a>
+        <a class="nav-links" href="#blog">Blog</a>
+      </nav>
+
+      <div class="icons">
+        <div class="search-wrapper">
+          <input type="text" class="" id="searchInput" placeholder="Search" />
+          <i class="bx bx-search" id="searchIcon"></i>
+        </div>
+
+        <div class="palette-wrapper">
+          <i class="bx bxs-palette" id="colorIcon"></i>
+          <input type="color" id="colorPicker" />
+        </div>
+
+        <i class="bx bx-adjust" id="theme"></i>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <i class="bx bx-menu"></i>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <i class="bx bx-x" id="closeMenu"></i>
+        <nav class="mobile-navbar">
+          <a class="nav-links" href="#home">Home</a>
+          <a class="nav-links" href="#about">About</a>
+          <a class="nav-links" href="#featured">Featured</a>
+          <a class="nav-links" href="#arrivals">Arrivals</a>
+          <a class="nav-links" href="#reviews">Reviews</a>
+          <a class="nav-links" href="#blog">Blog</a>
+        </nav>
+      </div>
+    </header>
+    <section class="hero" id="home">
+      <div class="welcome">
+        <h1>
+          WELCOME TO <br />
+          <span style="color: lightseagreen">BOOK STORE</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          molestias atque<br />
+          laborum non fuga ex deserunt. Exercitationem velit ducimus
+          praesentium, obcaecati hic<br />
+          voluptate id tenetur fuga illum quidem omnis? Rerum?
+        </p>
+        <br /><br />
+        <a href="#" class="btn">Learn More</a>
+      </div>
+
+      <div class="books">
+        <img src="assets/image/table.png" alt="Shelf" class="shelf-img" />
+      </div>
+    </section>
+    <section class="properties">
+      <div class="card">
+        <i class="fa fa-truck"></i>
+        <h3>Fast Delivery</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-headphones"></i>
+        <h3>24 x 7 Services</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-tag"></i>
+        <h3>Best Deal</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-lock"></i>
+        <h3>Secure Payment</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+    </section>
+    <section class="about-us" id="about">
+      <div class="about-img">
+        <img src="assets/image/reading.png" alt="Reading Books" />
+      </div>
+
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          cumque atque dolor corporis architecto. Voluptate expedita molestias
+          maxime officia natus consectetur dolor quisquam illo? Quis illum
+          nostrum perspiciatis laboriosam perferendis? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Minus ad eius saepe architecto
+          aperiam laboriosam voluptas nobis voluptates id amet eos repellat
+          corrupti harum consectetur, dolorum dolore blanditiis quam quo.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+     <section class="featured section" id="featured">
+      <h1 class="featured-title section-title">Featured Books</h1>
+
+      <div class="cards-container">
+        <div class="card">
+          <img class="card-img" src="assets/image/book_1.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_2.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_3.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_4.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_5.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_6.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_7.png" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_8.png" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_9.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_10.png" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_11.jpg" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_12.png" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_13.png" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_14.png" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="assets/image/book_15.png" alt="" />
+
+          <h3 class="featured-books">Featured Books</h3>
+
+          <p class="John-Deo">John Deo</p>
+          <p class="category">Thriller, Horror, Romance</p>
+
+          <div class="price">
+            <span class="new-price">$25.50</span>
+            <span class="old-price">$28.60</span>
+          </div>
+
+          <button class="learn-more learn-btn-respo">Learn More</button>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
