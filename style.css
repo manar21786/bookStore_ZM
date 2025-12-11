@@ -605,3 +605,67 @@ section {
 .digital-book .btn:hover {
   background-color: teal;
 }
+.blog {
+  .blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10rem;
+
+    .blog-card {
+      box-shadow: 1px 1px 5px var(--text-gray);
+
+      &:hover {
+        background: var(--primary-blue);
+        box-shadow: 0 0 4px 1px var(--primary-blue);
+
+        .bloger {
+          color: var(--netural-white);
+        }
+
+        .blog-paragraph {
+          color: var(--netural-white);
+        }
+
+        .bxs-calendar,
+        .blog-icons i:nth-child(2) {
+          color: var(--netural-white);
+        }
+      }
+
+      .card-img-blog {
+        width: 27rem;
+        height: 18rem;
+        margin-bottom: 0.5rem;
+        object-fit: cover;
+      }
+
+      .blog-padding {
+        padding: 0 1rem 1rem;
+      }
+
+      .bloger {
+        color: var(--primary-blue);
+        margin-bottom: 0.5rem;
+      }
+
+      .blog-paragraph {
+        max-width: 25rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+        line-height: 1.3;
+        color: var(--netural-black);
+      }
+
+      .blog-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .bxs-calendar,
+      .blog-icons i:nth-child(2) {
+        color: var(--primary-blue);
+      }
+    }
+  }
+}
