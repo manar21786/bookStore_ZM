@@ -218,3 +218,72 @@ section {
     }
   }
 }
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("assets/image/reading.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 8rem 7% 2rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    opacity: 0.88;
+    z-index: 0;
+  }
+
+  .welcome {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    padding: 5rem;
+
+    h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 2rem 0;
+      line-height: 1.5;
+      color: #333;
+    }
+  }
+
+  .books {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    text-align: center;
+
+    .shelf-img {
+      margin-top: -2rem;
+      width: 100%;
+      max-width: 280rem;
+      z-index: 0;
+      position: relative;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: teal;
+  }
+}
