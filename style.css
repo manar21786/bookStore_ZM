@@ -516,3 +516,66 @@ section {
     }
   }
 }
+.reviews-section {
+  .section-title {
+    text-align: center;
+    font-size: 5.2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 5rem auto;
+    padding: 2rem;
+
+    .review-card {
+      background: #fff;
+      border: 0.1rem solid var(--primary-blue);
+      border-radius: 0.8rem;
+      padding: 2rem;
+      width: 100%;
+      max-width: 30rem;
+      text-align: left;
+      box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.05);
+      transition: 0.3s;
+      position: relative;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+      }
+
+      img {
+        width: 30%;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1.5rem;
+      }
+
+      h3 {
+        margin: 1rem 0;
+      }
+
+      p {
+        font-size: 1.4rem;
+        color: #555;
+        line-height: 1.5;
+      }
+
+      .stars {
+        margin-top: 1rem;
+        color: var(--primary-blue);
+
+        i {
+          margin: 0 0.2rem;
+        }
+      }
+    }
+  }
+}
