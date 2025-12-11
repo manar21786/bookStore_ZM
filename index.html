@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  
+
   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -17,6 +17,46 @@
     />
 </head>
 <body>
-  
+  <header class="header">
+      <img class="logo" src="assets/image/logo.png" alt="Website Logo" />
+      <nav class="navbar">
+        <a class="nav-links" href="#home">Home</a>
+        <a class="nav-links" href="#about">About</a>
+        <a class="nav-links" href="#featured">Featured</a>
+        <a class="nav-links" href="#arrivals">Arrivals</a>
+        <a class="nav-links" href="#reviews">Reviews</a>
+        <a class="nav-links" href="#blog">Blog</a>
+      </nav>
+
+      <div class="icons">
+        <div class="search-wrapper">
+          <input type="text" class="" id="searchInput" placeholder="Search" />
+          <i class="bx bx-search" id="searchIcon"></i>
+        </div>
+
+        <div class="palette-wrapper">
+          <i class="bx bxs-palette" id="colorIcon"></i>
+          <input type="color" id="colorPicker" />
+        </div>
+
+        <i class="bx bx-adjust" id="theme"></i>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <i class="bx bx-menu"></i>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <i class="bx bx-x" id="closeMenu"></i>
+        <nav class="mobile-navbar">
+          <a class="nav-links" href="#home">Home</a>
+          <a class="nav-links" href="#about">About</a>
+          <a class="nav-links" href="#featured">Featured</a>
+          <a class="nav-links" href="#arrivals">Arrivals</a>
+          <a class="nav-links" href="#reviews">Reviews</a>
+          <a class="nav-links" href="#blog">Blog</a>
+        </nav>
+      </div>
+    </header>
 </body>
 </html>
